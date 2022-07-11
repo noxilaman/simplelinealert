@@ -3,7 +3,7 @@ namespace noxil\simplelinealert;
 
 class SimpleLineAlert {
 
-    public function sendmessage($message,$apikey){
+    public function sendmessage($message,$apikey = ""){
         if(empty($apikey)){
             $apikey = config('simplelinealert.api_key');
         }
