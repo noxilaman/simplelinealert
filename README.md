@@ -26,11 +26,11 @@ return [
 
 ```Laravel
 use noxil\simplelinealert;
-
+....
 # returns 'resulut from Line Notify'
 $sla = new SimpleLineAlert();
 $sla.sendmessage('Message to sent');
-
+....
 ```
 
 ## Contributing
